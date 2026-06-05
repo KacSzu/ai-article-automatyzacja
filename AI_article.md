@@ -6,11 +6,11 @@ Rozwój sztucznej inteligencji w ostatnich latach znacząco wpłynął na sposó
 
 Szczególnie istotne zmiany można zaobserwować w obszarze systemów kontroli wersji oraz platform wspierających współpracę zespołową, takich jak GitHub czy GitLab. Narzędzia oparte na sztucznej inteligencji są obecnie zdolne do generowania kodu, analizy podatności bezpieczeństwa, tworzenia dokumentacji, a nawet samodzielnego wykonywania wybranych zadań programistycznych.
 
-Celem niniejszego artykułu jest przedstawienie wpływu sztucznej inteligencji na współczesny proces wytwarzania oprogramowania. Omówione zostaną zarówno korzyści wynikające z wykorzystania AI, jak również wyzwania prawne, etyczne i technologiczne związane z jej dynamicznym rozwojem.
+Celem niniejszego artykułu jest przedstawienie wpływu sztucznej inteligencji na współczesny proces wytwarzania oprogramowania. Omówione zostaną zarówno korzyści wynikające z wykorzystania AI, jak i wyzwania prawne, etyczne oraz technologiczne związane z jej dynamicznym rozwojem.
 
 ---
 
-## ## 1. Agentic AI i inteligentna orkiestracja
+## 1. Agentic AI i inteligentna orkiestracja
 
 Jednym z najciekawszych kierunków rozwoju sztucznej inteligencji jest Agentic AI. Termin ten odnosi się do systemów, które nie ograniczają się wyłącznie do generowania odpowiedzi na polecenia użytkownika, ale są zdolne do samodzielnego planowania oraz wykonywania określonych działań prowadzących do osiągnięcia wyznaczonego celu. W praktyce oznacza to przejście od roli cyfrowego asystenta do roli aktywnego uczestnika procesu wytwarzania oprogramowania.
 
@@ -32,9 +32,9 @@ GitHub jest obecnie jedną z najważniejszych platform wspierających rozwój op
 
 Najbardziej znanym rozwiązaniem jest GitHub Copilot. Narzędzie zostało opracowane przez GitHub we współpracy z OpenAI i działa jako tzw. AI pair programmer. Oznacza to, że podczas pisania kodu użytkownik otrzymuje podpowiedzi generowane w czasie rzeczywistym przez model sztucznej inteligencji.
 
-Copilot potrafi generować pojedyncze linie kodu, całe funkcje, testy jednostkowe, a nawet fragmenty dokumentacji technicznej. Dzięki analizie kontekstu projektu narzędzie jest w stanie proponować rozwiązania dopasowane do aktualnie realizowanego zadania.
+Copilot potrafi generować pojedyncze linie kodu, całe funkcje, testy jednostkowe, a nawet fragmenty dokumentacji technicznej. Dzięki analizie kontekstu projektu narzędzie może proponować rozwiązania dopasowane do aktualnie realizowanego zadania.
 
-Według danych prezentowanych przez GitHub, w projektach wykorzystujących Copilot znaczna część nowego kodu powstaje przy udziale sztucznej inteligencji. W przypadku języka Python udział ten sięga około 40%. Wyniki badań wskazują również na wzrost produktywności programistów korzystających z tego rozwiązania.
+Według danych prezentowanych przez GitHub w projektach wykorzystujących Copilot znaczna część nowego kodu powstaje przy udziale sztucznej inteligencji. W przypadku języka Python udział ten sięga około 40%. Wyniki badań wskazują również na wzrost produktywności programistów korzystających z tego rozwiązania.
 
 Oprócz Copilota GitHub rozwija także inne narzędzia związane z AI. GitHub Models umożliwia porównywanie modeli językowych oraz testowanie promptów bezpośrednio w środowisku GitHub. Z kolei GitHub Spark pozwala tworzyć inteligentne aplikacje wykorzystujące modele generatywne.
 
@@ -60,7 +60,19 @@ W związku z tym wiele organizacji pracuje obecnie nad stworzeniem nowych regula
 
 ---
 
-## 4. Przyszłość kontroli wersji i Git 3.0
+## 4. Transformacja bezpieczeństwa kodu dzięki sztucznej inteligencji
+
+Jednym z najważniejszych obszarów zastosowania AI w inżynierii oprogramowania jest bezpieczeństwo kodu. Tradycyjne podejście do wykrywania podatności często opierało się na ręcznych audytach, skanerach uruchamianych okresowo oraz poprawkach wprowadzanych dopiero po wykryciu problemu. Narzędzia AI pozwalają przesunąć część tych działań na wcześniejsze etapy pracy nad aplikacją.
+
+Modele sztucznej inteligencji mogą analizować kod źródłowy, konfigurację projektu oraz zależności wykorzystywane przez aplikację. Dzięki temu są w stanie szybciej wskazywać potencjalne podatności, błędne wzorce implementacyjne lub biblioteki wymagające aktualizacji. W praktyce wspiera to programistów już na etapie tworzenia pull requestu, zanim zmiany trafią do głównej gałęzi projektu.
+
+Istotną zaletą jest również możliwość generowania propozycji poprawek. AI może zasugerować bezpieczniejszy fragment kodu, przygotować aktualizację zależności albo opisać ryzyko w sposób zrozumiały dla osoby wykonującej review. Nie oznacza to jednak, że takie poprawki powinny być wdrażane automatycznie bez kontroli. W obszarze bezpieczeństwa szczególnie ważna pozostaje weryfikacja przez człowieka, ponieważ błędnie zaakceptowana zmiana może wprowadzić nowe problemy.
+
+Wykorzystanie AI w bezpieczeństwie kodu najlepiej traktować jako wsparcie dla zespołu, a nie zastępstwo dla dobrych praktyk programistycznych. Największą wartość daje połączenie automatycznej analizy, testów, code review oraz świadomego zarządzania zależnościami.
+
+---
+
+## 5. Przyszłość kontroli wersji i Git 3.0
 
 System Git od wielu lat stanowi podstawę współpracy programistów na całym świecie. Pomimo ogromnej popularności technologia ta również podlega zmianom wynikającym z rozwoju sztucznej inteligencji oraz rosnącej skali projektów informatycznych.
 

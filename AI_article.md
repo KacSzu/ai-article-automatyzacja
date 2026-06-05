@@ -10,19 +10,19 @@ Celem niniejszego artykułu jest przedstawienie wpływu sztucznej inteligencji n
 
 ---
 
-## 1. Agentic AI i inteligentna orkiestracja
+## ## 1. Agentic AI i inteligentna orkiestracja
 
-Jednym z najważniejszych kierunków rozwoju sztucznej inteligencji jest koncepcja Agentic AI. W przeciwieństwie do tradycyjnych asystentów AI, których zadaniem jest odpowiadanie na pytania użytkownika, agenci AI mogą samodzielnie wykonywać określone działania prowadzące do osiągnięcia wyznaczonego celu.
+Jednym z najciekawszych kierunków rozwoju sztucznej inteligencji jest Agentic AI. Termin ten odnosi się do systemów, które nie ograniczają się wyłącznie do generowania odpowiedzi na polecenia użytkownika, ale są zdolne do samodzielnego planowania oraz wykonywania określonych działań prowadzących do osiągnięcia wyznaczonego celu. W praktyce oznacza to przejście od roli cyfrowego asystenta do roli aktywnego uczestnika procesu wytwarzania oprogramowania.
 
-W środowisku programistycznym oznacza to możliwość automatyzacji wielu etapów procesu tworzenia oprogramowania. Agent AI może analizować zgłoszenia błędów, tworzyć plan działania, modyfikować kod źródłowy, uruchamiać testy oraz przygotowywać propozycje zmian w repozytorium.
+W nowoczesnych środowiskach DevSecOps agenci AI mogą analizować zgłoszenia błędów, identyfikować obszary wymagające zmian, przygotowywać propozycje implementacji oraz wykonywać testy weryfikujące poprawność rozwiązania. Coraz częściej wykorzystuje się je również do monitorowania jakości kodu i wykrywania potencjalnych problemów bezpieczeństwa jeszcze przed wdrożeniem aplikacji na środowisko produkcyjne.
 
-Przykładem takiego podejścia jest GitLab Duo, który wykorzystuje sztuczną inteligencję do wspierania całego cyklu życia aplikacji. Narzędzie potrafi przekształcić zgłoszenie typu issue w gotową propozycję zmian w kodzie, a następnie przygotować merge request wraz z opisem wykonanych modyfikacji.
+Przykładem zastosowania tego podejścia jest GitLab Duo, które umożliwia automatyczne przekształcanie zgłoszeń typu issue w gotowe merge requesty. System analizuje treść zgłoszenia, identyfikuje pliki wymagające modyfikacji, proponuje odpowiednie zmiany i generuje dokumentację opisującą wykonane działania. Dzięki temu programista może skoncentrować się na weryfikacji rozwiązania zamiast wykonywać wszystkie czynności ręcznie.
 
-Ważnym zastosowaniem Agentic AI jest również bezpieczeństwo aplikacji. Agenci mogą automatycznie wykrywać znane podatności, analizować zależności wykorzystywane w projekcie oraz proponować poprawki eliminujące wykryte zagrożenia. Dzięki temu zespoły programistyczne mogą szybciej reagować na pojawiające się problemy bezpieczeństwa.
+Istotnym zastosowaniem Agentic AI jest także obszar cyberbezpieczeństwa. Agenci mogą analizować zależności wykorzystywane przez aplikację, wykrywać podatności opisane w bazach CVE oraz automatycznie proponować aktualizacje bibliotek. W niektórych przypadkach możliwe jest również wygenerowanie gotowej poprawki eliminującej wykryty problem bezpieczeństwa.
 
-Kolejną zaletą jest automatyzacja rutynowych czynności. Programiści nie muszą poświęcać czasu na wykonywanie powtarzalnych zadań, takich jak przygotowywanie dokumentacji, aktualizacja zależności czy generowanie testów jednostkowych. Pozwala to skoncentrować się na bardziej kreatywnych aspektach tworzenia oprogramowania.
+Wraz ze wzrostem możliwości agentów AI pojawiają się jednak nowe wyzwania. Konieczne jest zachowanie odpowiedniego poziomu kontroli nad podejmowanymi decyzjami oraz zapewnienie pełnej przejrzystości wykonywanych działań. Z tego powodu większość współczesnych rozwiązań opiera się na modelu „human-in-the-loop”, w którym ostateczna decyzja o wdrożeniu zmian nadal należy do człowieka.
 
-Mimo licznych korzyści Agentic AI nie eliminuje całkowicie roli człowieka. Ostateczne decyzje dotyczące wdrożenia zmian nadal powinny pozostawać pod kontrolą programistów, którzy odpowiadają za jakość i bezpieczeństwo kodu.
+Można przypuszczać, że w kolejnych latach Agentic AI stanie się standardowym elementem środowisk programistycznych. Narzędzia te będą przejmować coraz większą liczbę powtarzalnych zadań, pozwalając zespołom deweloperskim skupić się na projektowaniu architektury systemów oraz rozwiązywaniu bardziej złożonych problemów biznesowych.
 
 ---
 
